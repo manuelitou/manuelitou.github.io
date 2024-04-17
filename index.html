@@ -1,19 +1,39 @@
-<!DOCTYPE html>
-<html>
+<style>
+.image-container {
+  position: relative;
+  width: 250px; /* Adjust as needed */
+  height: 250px; /* Adjust as needed */
+}
 
-<head>
-	<meta charset="utf-8">
-	<title>manuelitou</title>
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: brrr 0.5s infinite;
+}
+
+@keyframes brrr {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  51% {
+    transform: rotate(-7deg);
+  }
+  100% {
+    transform: rotate(-7deg);
+  }
+}
+</style>
 </head>
-
 <body>
-	<h1>HypeBoi</h1>
-	<h2>Welcum.</h2>
-	<p>i know i hype u boy</p>
-	<p>this is my first try of making my own website and i literally dont know what the fuck to do haha</p>
-	<p>in the following line it should show an image lmao</p>
-	<p>te amo angel casate conmigo lindo hermosoooooo</p> <img src="pucca.jpg" alt="lo descargue de tumblr bno">
-	<p>esta sonando y si veo a tu mamá en youtube a las 4:15 de la tarde el 18 de noviembre del 2022 jsadkdsa q pendejo</p>
-</body>
 
-</html>
+<div class="image-container">
+  <img id="image01" src="https://files.catbox.moe/gl4ud9.png">
+</div>
+
+</body>
